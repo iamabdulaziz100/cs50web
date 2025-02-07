@@ -1,16 +1,28 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Search</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <form action="https://google.com/search">
-      <input type="text" name="q" />
-      <input type="submit" value="Google Search" />
-    </form>
+    <nav>
+      <a href="advanced.html">Advanced</a>
+      <a href="image.html">Images</a>
+    </nav>
     <div>
-      <a href="image.html"></a>
-      <a href="advanced.html"></a>
+      <img src="images/googlelogo_color_272x92dp.png" alt="Google" />
     </div>
+    <form action="https://google.com/search">
+      <input class="search-box" type="text" name="q" placeholder="Search..." />
+      <input class="submit" type="submit" value="Google Search" />
+      <input
+        class="submit"
+        type="submit"
+        name="btnI"
+        value="I'm Felling Lucky"
+      />
+    </form>
   </body>
 </html>
